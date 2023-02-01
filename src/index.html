@@ -2,30 +2,58 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Webpack tutorial</title>
   </head>
   <body>
     <main>
-      <h1>Leaderboard</h1>
+      <header class="header">
+        <h1>Leaderboard</h1>
+      </header>
 
-      <section class="scores">
-        <h2>Recent scores</h2>
-        <button class="btn">Refresh</button>
-        <ul class="score-list">
-          <li>Name: 100
-          <li>Name: 50</li>
-          <li>Name: 35</li>
-          </li>
-        </ul>
-      </section>
-      <section class="add-score">
-        <form action="" class="form">
-          <input type="text" class="name">
-          <input type="text" class="score">
-          <input type="submit" value="Submit"> 
-       </form>
+      <section class="main-container">
+        <section class="scores items">
+          <div class="refresH1">
+            <h2 class="recentH2">Recent scores</h2>
+            <button class="btn">Refresh</button>
+          </div>
+          <ul class="score-list">
+            <li>Name: 100</li>
+            <li>Name: 50</li>
+            <li>Name: 35</li>
+            <li>Name: 50</li>
+            <li>Name: 35</li>
+            <li>Name: 50</li>
+            <li>Name: 35</li>
+            <li>Name: 50</li>
+            <li>Name: 35</li>
+          </ul>
+        </section>
+        <section class="add-score items">
+          <form action="" class="form">
+            <h2 class="form-heading">Add your score</h2>
+            <div class="form-group">
+              <input
+                type="text"
+                id="name"
+                class="name from-input"
+                placeholder="Your name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                id="author"
+                class="score from-input"
+                placeholder="Your score"
+                required
+              />
+            </div>
+            <input type="submit" value="Submit" class="submit" />
+          </form>
+        </section>
       </section>
     </main>
   </body>
