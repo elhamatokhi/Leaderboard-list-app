@@ -11,6 +11,7 @@ body {
   display: flex;
   align-items: center;
 }
+
 h1 {
   margin: 0 0 0 40px;
 }
@@ -28,6 +29,7 @@ h2 {
   margin: 0;
   font-size: 35px;
 }
+
 .score-list {
   padding: 0;
   border: 3px solid black;
@@ -41,6 +43,7 @@ h2 {
 .items {
   margin: 0 auto;
 }
+
 .score-list li {
   list-style: none;
   padding: 5px;
