@@ -2,9 +2,7 @@
 
 # Webpack setup
 
-This is a webpack setup project with eslint. You can use this as an initial setup for any
-project using webpack and eslint.
-
+This is a Leaderboard project build using webpack as an initial setup. The leaderboard website displays scores submitted by different players. It also allows you to submit your score. 
 <!-- GETTING STARTED -->
 
 ## Getting Started
@@ -15,6 +13,18 @@ To get a local copy up and running follow these simple example steps.
 
 ```js
 npm install
+```
+
+To build a webpack bundle file,run
+
+```js
+npm run build
+```
+
+If you want to build and run the local server, run
+
+```js
+npm start
 ```
 
 ## Authors <a name="authors"></a>
