@@ -3,7 +3,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [\[Leaderboard\] ](#leaderboard-)
+- [\[[Leaderboard-list-app]\] ](#[Leaderboard-list-app]-)
   - [🛠 Built With ](#-built-with-)
   - [💻 Getting Started ](#-getting-started-)
     - [Setup](#setup)
@@ -17,7 +17,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# [Leaderboard] <a name="about-project"></a>
+# [Leaderboard-list-app] <a name="about-project"></a>
 
 - This is a Leaderboard project build using webpack as an initial setup. The leaderboard website displays scores submitted by different players. It also allows you to submit your score.
 
