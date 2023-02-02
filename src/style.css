@@ -1,0 +1,95 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.header {
+  min-height: 30vh;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  margin: 0 0 0 40px;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.form-heading {
+  margin: 0;
+  padding-top: 15px;
+}
+
+.recentH2 {
+  margin: 0;
+  font-size: 35px;
+}
+
+.score-list {
+  padding: 0;
+  border: 3px solid black;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-around;
+  min-height: 70vh;
+}
+
+.items {
+  margin: 0 auto;
+}
+
+.score-list li {
+  list-style: none;
+  padding: 5px;
+  min-width: 400px;
+}
+
+.score-list li:nth-of-type(odd) {
+  background-color: #ddd;
+}
+
+.refresH1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn,
+.submit {
+  background-color: white;
+  border-radius: 2px;
+  border: 3px solid black;
+  box-shadow: 2px 3px #000;
+  font-weight: bold;
+  padding: 0.2rem;
+}
+
+.add-score,
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 300px;
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.submit {
+  align-self: flex-end;
+}
+
+.from-input {
+  border: 2px solid black;
+  padding: 5px;
+  width: 100%;
+}
