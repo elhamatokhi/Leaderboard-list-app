@@ -1,6 +1,6 @@
 export const post = async (name, score) => {
   await fetch(
-    'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/njDIFRtr79tRGbjsvOxH/scores/',
+    'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/4dIVkemOTTVg2fUdz/scores/',
     {
       method: 'POST',
       headers: {
@@ -15,7 +15,7 @@ export const post = async (name, score) => {
 };
 export const get = async () => {
   const res = await fetch(
-    'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/njDIFRtr79tRGbjsvOxH/scores/',
+    'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/4dIVkemOTTVg2fUdz/scores/',
   );
   const data = await res.json();
   data.result.forEach((user) => {
